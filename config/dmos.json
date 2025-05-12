@@ -1,0 +1,14 @@
+{
+  "Test": "DMOS",
+  "Grades": [1, 2, 3, 4, 5],
+  "NumQuestionPerMethod": 2,
+  "AnswerTime": 1.0,
+  "CanRepeat": false,
+  "UseShufflePair": false,
+  "UseSameFile": true,
+  "UseReference": true,
+  "Reference": "audio/reference",
+  "Methods": {"48k": "audio/48k", "opus_16k": "audio/opus_16k", "opus_32k": "audio/opus_32k", "opus_64k": "audio/opus_64k"},
+  "ProcedureText": ["1問ごとに音声が2つ連続して流れます．", "回答は3秒以内に行ってください", "（回答時間経過後に自動で次の設問へ移動します）．"],
+  "CriteriaText": ["1番目と比較して2番目の音声が，人間が発話したものとして", "1:劣化が非常に気になる, 2:劣化が気になる, 3:劣化がわずかに気になる, 4:劣化があるが気にならない, 5:劣化が全くない", "の5段階で評価してください。"]
+}

@@ -1,0 +1,14 @@
+{
+  "Test": "MOS",
+  "Grades": ["悪い", "やや悪い", "普通", "良い", "非常に良い"],
+  "NumQuestionPerMethod": 2,
+  "AnswerTime": 1.0,
+  "CanRepeat": false,
+  "UseShufflePair": false,
+  "UseSameFile": true,
+  "UseReference": false,
+  "Reference": "",
+  "Methods": {"48k": "audio/48k", "opus_16k": "audio/opus_16k", "opus_32k": "audio/opus_32k", "opus_64k": "audio/opus_64k"},
+  "ProcedureText": ["回答は3秒以内に行ってください．", "（回答時間経過後に自動で次の設問へ移動します）"],
+  "CriteriaText": ["1問ごとに音声が2つ連続して流れます．", "聴取した音声が人間が発話したものとして自然かどうかを", "1:悪い (Bad), 2:やや悪い (Poor), 3:普通 (Fair), 4:やや良い (Good), 5:良い (Excellent)", "の5段階で評価してください。"]
+}
